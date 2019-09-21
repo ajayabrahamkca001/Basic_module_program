@@ -50,23 +50,23 @@ public class email {
 			
 			if(updateyn.equals("y")==true)
 			{
-				System.out.println("your details are as follows");
-				System.out.println("Name"+name);
-				System.out.println("Address"+address);
-				System.out.println("contact number"+phonenumber);
-				System.out.println("Email id"+updatedemailid);
-				System.out.println("prooftype"+prooftype);
-				System.out.println("proofid"+proofid);
+				System.out.println("your details are as follows:");
+				System.out.println("Name:"+name);
+				System.out.println("Address:"+address);
+				System.out.println("contact number:"+phonenumber);
+				System.out.println("Email id:"+updatedemailid);
+				System.out.println("prooftype:"+prooftype);
+				System.out.println("proofid:"+proofid);
 			}
 			else
 			{
-				System.out.println("your details are as follows");
-				System.out.println("Name"+name);
-				System.out.println("Address"+address);
-				System.out.println("contact number"+phonenumber);
+				System.out.println("your details are as follows:");
+				System.out.println("Name:"+name);
+				System.out.println("Address:"+address);
+				System.out.println("contact number:"+phonenumber);
 				System.out.println("Email id :"+emailid);
-				System.out.println("prooftype"+prooftype);
-				System.out.println("proofid"+proofid);
+				System.out.println("prooftype:"+prooftype);
+				System.out.println("proofid:"+proofid);
 			}
 			
 	}
