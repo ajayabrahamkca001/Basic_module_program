@@ -37,12 +37,15 @@ public class registration {
 		proofid=br.readLine();
 		 
 		System.out.println("thank you for registering.your id is:"+i);
-		 i++;
+		count=i; 
+		i++;
 		 	System.out.println("Do you want to continue registration(y/n)?");
 			yn=br.readLine();
 	}while(yn.equals("y"));
 	
-	count=i;	
+		
+	
+	
 	viewcustomer(count,a, i);
 	
 	}
